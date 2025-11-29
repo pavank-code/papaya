@@ -1,0 +1,10 @@
+<UserControl
+    x:Class="FlowVault.UI.Controls.TileHost"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FlowVault.UI.Controls">
+
+    <Canvas x:Name="TileCanvas" Background="Transparent">
+        <!-- Tiles are dynamically added here -->
+    </Canvas>
+</UserControl>

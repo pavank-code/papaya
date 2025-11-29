@@ -1,0 +1,21 @@
+<Window
+    x:Class="FlowVault.UI.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FlowVault.UI"
+    xmlns:controls="using:FlowVault.UI.Controls"
+    Title="Flow Vault">
+
+    <Grid Background="{StaticResource GlassBackgroundBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="56" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Top Bar -->
+        <controls:TopBar x:Name="TopBar" Grid.Row="0" />
+
+        <!-- Tile Host -->
+        <controls:TileHost x:Name="TileHost" Grid.Row="1" />
+    </Grid>
+</Window>

@@ -1,0 +1,63 @@
+# Build artifacts
+bin/
+obj/
+out/
+
+# IDE
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test results
+TestResults/
+*.trx
+coverage/
+
+# User files
+*.rsuser
+*.csproj.user
+
+# Build logs
+*.log
+msbuild.binlog
+
+# Publish output
+publish/
+
+# Windows App SDK
+AppPackages/
+BundleArtifacts/
+
+# Database
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Secrets (never commit)
+appsettings.*.json
+secrets.json
+*.pfx
+*.key
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temp
+*.tmp
+*.temp
+~$*
